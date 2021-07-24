@@ -1,0 +1,104 @@
+body {
+    margin: 150px 55px;
+    min-width: 1500px;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+div .tab-container {
+    margin: 0;
+    border: 1px solid;
+}
+
+.tableau {
+    display: flex;
+}
+
+.tab-container p {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: chartreuse;
+    padding: 20px 15px;
+    margin: 0;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.tab-pinter p {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0;
+    border: 1px solid;
+}
+
+.tab-container:last-of-type{
+    display: block;
+}
+
+.submit {
+    display: block;
+}
+
+input:disabled {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    color: #000;
+}
+.tab-app p {
+    height: 21px;
+}
+.tab-app~div {
+    background-color:darksalmon;
+    text-align: left;
+    padding: 10px 0;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+.tab-pinter:first-of-type {
+    min-width: 100px;
+    border: 1px solid;
+}
+
+select {
+    height: 23.07px;
+}
+/**COLOR JS**/
+
+
+
+.bblack {
+    color: #fff;
+    background: #000;
+}
+
+.cblack {
+    color: #000;
+    background: #fff;
+}
+
+.bblue {
+    color: #000;
+    background: #00f;
+}
+
+.cblue {
+    color: #00f;
+} 
+
+.bgreen {
+    color: #000;
+    background: #0f0;
+}
+
+.cgreen {
+    color: #0f0;   
+} 
+
